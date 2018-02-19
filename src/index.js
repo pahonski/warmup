@@ -1,3 +1,5 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+    var farengeit = parseInt(temperature * (9 / 5) + 32);
+    return farengeit;
+    // your implementation here
 };
